@@ -1,0 +1,30 @@
+{
+  "name": "simp-bot",
+  "version": "4.2.0",
+  "description": "A discord bot for the interwebs",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6six7sven/simd-bot.git"
+  },
+  "author": "ChatCCP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/6six7sven/simd-bot/issues"
+  },
+  "homepage": "https://github.com/6six7sven/simd-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv-safe": "^8.2.0",
+    "glob": "^10.3.10",
+    "toml-js": "^0.0.8"
+  }
+}
